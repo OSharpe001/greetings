@@ -11,7 +11,7 @@ app.get("/greeting/:name", (request, response) => {
     response.send(`<h1>Peace ${request.params.name}! ✌🏾<br/> Good to see ya!</h1>`);
 });
 
-
+// LISTENER
 app.listen(port, () => {
     console.log(`listening to port ${port}`);
 });
